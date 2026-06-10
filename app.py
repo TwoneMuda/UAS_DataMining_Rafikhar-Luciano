@@ -1,19 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║   Aplikasi Prediksi Kualitas Udara Global                    ║
-║   Dataset: PM2.5 Global Air Pollution 2010-2017             ║
-║   Metode: Random Forest + K-Means Clustering                ║
-╚══════════════════════════════════════════════════════════════╝
-
-Jalankan dengan:
-    streamlit run app.py
-
-Pastikan file berikut ada di folder yang sama:
-  - rf_model.pkl
-  - cluster_info.json
-  - df_history.csv
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
